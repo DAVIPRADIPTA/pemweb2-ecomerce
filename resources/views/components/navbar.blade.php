@@ -19,7 +19,7 @@
                         Categories
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/category/aksesori">Aksesori</a></li>
+                        <li><a class="dropdown-item" href="/category/Aksesori">Aksesori</a></li>
                         <li><a class="dropdown-item" href="/category/wanita">Wanita</a></li>
                     </ul>
                 </li>
