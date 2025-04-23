@@ -15,6 +15,7 @@ class HomepageController extends Controller
             'categories' => $categories,
         ]);
     }
+    
     public function products()
     {
 
@@ -30,6 +31,7 @@ class HomepageController extends Controller
     {
         return view('categories');
     }
+    
     public function category($slug)
     {
         $category = Categories::find($slug);
@@ -39,10 +41,12 @@ class HomepageController extends Controller
                 $category
         ]);
     }
+
     public function cart()
     {
         return view('cart');
     }
+
     public function checkout()
     {
         return view('checkout');

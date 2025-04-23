@@ -11,7 +11,7 @@
                                                     {{ $category['description'] }}
                                               </p>
                                               <a href="/category/{{ $category['slug'] }}" class="btn
-               btn-primary">Detail</a>
+                                                btn-primary">Detail</a>
                                         </div>
                                  </div>
                            </div>
